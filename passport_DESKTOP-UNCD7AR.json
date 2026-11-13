@@ -1,0 +1,75 @@
+{
+  "collected_at": "2026-11-13 11:13:49",
+  "system": {
+    "hostname": "DESKTOP-UNCD7AR",
+    "os": "Windows",
+    "os_version": "10.0.22631",
+    "architecture": "AMD64",
+    "boot_time": "2026-10-14 21:05"
+  },
+  "cpu": {
+    "model": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+    "physical_cores": 6,
+    "logical_cores": 12,
+    "max_freq_mhz": 3301,
+    "load_percent": 2.5
+  },
+  "memory": {
+    "total_gb": 7.2,
+    "used_percent": 84.6,
+    "available_gb": 1.11
+  },
+  "disks": [
+    {
+      "device": "C:\\",
+      "mountpoint": "C:\\",
+      "fs": "NTFS",
+      "total_gb": 135.9,
+      "used_percent": 95.5
+    },
+    {
+      "device": "D:\\",
+      "mountpoint": "D:\\",
+      "fs": "NTFS",
+      "total_gb": 340.2,
+      "used_percent": 92.7
+    }
+  ],
+  "network": [
+    {
+      "name": "Ethernet 2",
+      "ipv4": "192.168.56.1",
+      "netmask": "255.255.255.0",
+      "mac": "0A-00-27-00-00-09"
+    },
+    {
+      "name": "Подключение по локальной сети* 9",
+      "ipv4": "169.254.208.190",
+      "netmask": "255.255.0.0",
+      "mac": "F2-A6-54-9E-63-AD"
+    },
+    {
+      "name": "Подключение по локальной сети* 10",
+      "ipv4": "169.254.123.156",
+      "netmask": "255.255.0.0",
+      "mac": "F2-A6-54-9E-73-BD"
+    },
+    {
+      "name": "Беспроводная сеть",
+      "ipv4": "192.168.10.4",
+      "netmask": "255.255.255.0",
+      "mac": "90-91-EA-95-42-37"
+    },
+    {
+      "name": "Loopback Pseudo-Interface 1",
+      "ipv4": "127.0.0.1",
+      "netmask": "255.0.0.0",
+      "mac": null
+    }
+  ],
+  "recommendations": [
+    "Недостаточно памяти для виртуальных машин и Docker.",
+    "Освободить место на диске C:\\: заполнено 95.5%.",
+    "Освободить место на диске D:\\: заполнено 92.7%."
+  ]
+}
